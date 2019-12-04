@@ -1,0 +1,5 @@
+#第一个程序"hello word"
+  print('hello word') 
+#print 打印文件 
+#’‘ python 标记字符串用到的
+固定格式
