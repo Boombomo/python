@@ -1,0 +1,263 @@
+# credentials:
+#   username: "copytest"
+#   password: "sl;0F[i)dK.G"
+# # devices.yaml - 设备完整清单
+
+# devices:
+
+# # devices.yaml - SIDC组 设备清单
+
+#   - name: "SIDC-18FSW-C2960s-01"
+#     hostip: "10.21.172.21"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-18FSW-C2960s-02"
+#     hostip: "10.21.172.22"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-18FSW-C2960s-03"
+#     hostip: "10.21.172.23"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-18FSW-C2960S-04"
+#     hostip: "10.21.172.33"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-18FSW-C2960X-04"
+#     hostip: "10.21.172.24"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-18FSW-C2960X-05"
+#     hostip: "10.21.172.25"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-18FSW-C2960X-06"
+#     hostip: "10.21.172.26"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-18FVOhostipSW-C2960S"
+#     hostip: "10.21.172.32"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-21FSW-C2960S-01"
+#     hostip: "10.21.172.3"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-21FSW-C2960S-02"
+#     hostip: "10.21.172.4"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-21FSW-C2960S-03"
+#     hostip: "10.21.172.5"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+  
+#   - name: "SIDC-18FVoipSW-C2960XR-01"
+#     hostip: "10.21.172.39"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-21FVOhostipGW-C2951-01"
+#     hostip: "10.21.172.61"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-21FVOhostipSW-C2960S-01"
+#     hostip: "10.21.172.8"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-21FVOhostipSW-C2960S-02"
+#     hostip: "10.21.172.9"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-6FVOhostipSW-C2960S-02"
+#     hostip: "10.21.172.11"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-6FVOhostipSW-C2960S-03"
+#     hostip: "10.21.172.12"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-6FVOhostipSW-C2960X-01"
+#     hostip: "10.21.172.10"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-CORE-C3750X-01"
+#     hostip: "10.21.172.1"
+#     platform: "cisco_ios"
+#     groups: "SIDC"
+
+#   - name: "SIDC-VPNGW-C5515-01"
+#     hostip: "10.21.174.2"
+#     platform: "cisco_asa"  # 特别标注ASA设备
+#     groups: "SIDC"
+
+#   - name: "WLC-CT5508-K9"
+#     hostip: "10.21.172.153"
+#     platform: "cisco_wlc"  # 特别标注WLC设备
+#     groups: "SIDC"
+
+# # devices.yaml - SOU组 设备清单
+  
+#   - name: "SOU-515F_H3C-01核心交换机"
+#     hostip: "10.40.99.1"
+#     platform: "h3c"  
+#     groups: "SOU"
+
+#   - name: "SOU-4F_H3C-01接入交换机"
+#     hostip: "10.40.99.2"
+#     platform: "h3c"  
+#     groups: "SOU"
+
+#   - name: "SOU-4F_H3C-02接入交换机"
+#     hostip: "10.40.99.3"
+#     platform: "h3c"  
+#     groups: "SOU"
+
+#   - name: "SOU-4F_H3C-03接入交换机"
+#     hostip: "10.40.99.4"
+#     platform: "h3c"  
+#     groups: "SOU"
+
+#   - name: "SOU-2F_H3C-01接入交换机"
+#     hostip: "10.40.99.17"
+#     platform: "h3c"  
+#     groups: "SOU"
+
+#   - name: "SOU-5FSW-出口分线交换机-C2960-01"
+#     hostip: "10.40.99.18"
+#     platform: "cisco_ios"
+#     groups: "SOU"
+
+#   - name: "SOU-CORE-C3560X-01"
+#     hostip: "10.40.1.1"
+#     platform: "cisco_ios"
+#     groups: "SOU"
+
+#   - name: "SOU-5FVOIPGW-C2921-01"
+#     hostip: "10.21.101.3"
+#     platform: "cisco_ios"
+#     groups: "SOU"
+
+#   - name: "SOU-VPNGW-C5515-01"
+#     hostip: "172.16.21.34"
+#     platform: "cisco_asa"  # ASA设备
+#     groups: "SOU"
+
+
+# # devices.yaml - CMC组 设备清单
+
+#   - name: "CMC-H3C_10508-X-G核心交换机"
+#     hostip: "10.21.26.1"
+#     platform: "h3c_core"  
+#     groups: "CMC"
+
+#   - name: "CMC-FortiGateway"
+#     hostip: "10.21.26.199"
+#     platform: "fortinet"  
+#     groups: "CMC"    
+#     api_key: "8G7fG8dN9tqHkxtqyNdbbjp8N5wqfj"
+#     api_port: 4443
+
+#   - name: "CMC-H3C_5560X-边界交换机"
+#     hostip: "10.21.26.198"
+#     platform: "h3c"  
+#     groups: "CMC"   
+
+#   - name: "CMCC-C3560_3G22管理交换机"
+#     hostip: "10.21.26.12"
+#     platform: "cisco_ios"
+#     groups: "CMC"
+
+#   - name: "CMCC-C2960_服务器管理交换机"
+#     hostip: "10.21.26.13"
+#     platform: "cisco_ios"
+#     groups: "CMC"
+
+# # devices.yaml - CUC组 设备清单
+
+#   - name: "CUC_C411_35U-2960S-SERMGMT-01"
+#     hostip: "10.21.53.131"
+#     platform: "cisco_ios"
+#     groups: "CUC"
+
+#   - name: "CUC-Nexus-93180_架构补全交换机-01"
+#     hostip: "10.21.53.56"
+#     platform: "cisco_ios"
+#     groups: "CUC"
+
+#   - name: "CUC-Nexus-93180_架构补全交换机-02"
+#     hostip: "10.21.53.57"
+#     platform: "cisco_ios"
+#     groups: "CUC"    
+
+#   - name: "CUC-CORE-QFX10008-01"
+#     hostip: "10.21.53.253"
+#     platform: "juniper_qfx"
+#     groups: "CUC"
+
+#   - name: "CUC-CORE-QFX10008-02"
+#     hostip: "10.21.53.254"
+#     platform: "juniper_qfx"
+#     groups: "CUC"    
+
+#   - name: "CUC-C3560X-网络管理交换机-01"
+#     hostip: "10.21.53.11"
+#     platform: "cisco_ios"
+#     groups: "CUC"  
+
+#   - name: "CUC-C3560X-网络管理交换机-02"
+#     hostip: "10.21.53.12"
+#     platform: "cisco_ios"
+#     groups: "CUC"      
+
+#   - name: "CUC-Nexus3548-边界交换机-01"
+#     hostip: "10.21.53.50"
+#     platform: "cisco_ios"
+#     groups: "CUC"
+
+#   - name: "CUC-Nexus3548-边界交换机-02"
+#     hostip: "10.21.53.51"
+#     platform: "cisco_ios"
+#     groups: "CUC"
+
+#   - name: "CUC-SRX4100-01"
+#     hostip: "10.21.53.22"
+#     platform: "juniper_srx"
+#     groups: "CUC"
+
+#   - name: "CUC-SRX4100-02"
+#     hostip: "10.21.53.23"
+#     platform: "juniper_srx"
+#     groups: "CUC"      
+
+# # devices.yaml - XIAN组 设备清单
+#   - name: "XA-CNC-FW-C5545-A"
+#     hostip: "10.128.8.2"
+#     platform: "cisco_asa"
+#     groups: "XIAN"  
+
+#   # - name: "XA-CORE-NexusC3548P-A"
+#   #   hostip: "10.128.8.3"
+#   #   platform: "cisco_ios"
+#   #   groups: "XIAN"      
+
+#   # - name: "A-CORE-NexusC3548P-B"
+#   #   hostip: "10.128.8.4"
+#   #   platform: "cisco_ios"
+#   #   groups: "XIAN"      
